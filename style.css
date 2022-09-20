@@ -1,0 +1,123 @@
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem, 5rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.nav-item {
+  padding: 0.5rem;
+}
+/* /* .nav-link {
+  color: #5b5555 !important; */
+.top-bar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #030202 !important;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+}
+.navbar-brand img {
+  height: 7rem;
+}
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rbg(0, 0, 0, 0.9);
+  z-index: 1;
+}
+.nav-item {
+  padding: 0.5rem;
+}
+.nav-link {
+  color: #dbcbcb !important;
+}
+
+.container-push {
+  position: absolute;
+  bottom: 7rem;
+}
+
+.img-blur {
+  /* background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.4); */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  -webkit-filter: blur(1.5px);
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+ul {
+  list-style: none;
+}
+
+.align-text-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  font-family: Tahoma, sans-serif;
+}
+#carousel {
+  box-shadow: 0 0.1rem, 5rem rgba(0, 0, 0, 1);
+}
+.bg-sh {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 1rem;
+}
+.carousel-inner {
+  max-height: 45rem !important;
+}
+.carousel-item.next,
+.carousel.item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
+
+cont {
+  margin: auto;
+}
+
+bg-z {
+  margin: auto;
+  padding: 0%;
+}
+iframe {
+  display: block;
+
+  width: 90vw;
+  height: calc(0.75 * 90vw);
+  max-width: 600px;
+  max-height: 500px;
+  margin: 0 auto !important;
+}
+gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
