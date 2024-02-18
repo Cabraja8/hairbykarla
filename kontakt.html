@@ -58,31 +58,30 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container-fluid ">
+    <div class="">
       <header>
-        <div class="container">
-        <nav id="nav" class="bg-white navbar navbar-brand navbar-expand-lg">
+     
+        <nav id="nav" class="navbar bg-light navbar-brand navbar-expand-lg">
           <div class="container text-center">
-            <a href="index.html" class="navbar-brand"
-              ><img src="slike/logo.png" alt="Logo"
-            /></a>
-  
+            <a href="index.html" class="navbar-brand">
+              <img src="slike/logo.png" alt="Logo" />
+            </a>
+    
             <button
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarResponsive"
             >
-            
               <span class="navbar-toggler-icon"></span>
             </button>
-  
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
+    
+            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto"> <!-- Add ml-auto class here -->
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link ">Početna</a>
+                  <a href="index.html" class="nav-link">Početna</a>
                 </li>
-  
+    
                 <li class="nav-item">
                   <a href="cjenik.html" class="nav-link">Cjenik</a>
                 </li>
@@ -93,52 +92,55 @@
             </div>
           </div>
         </nav>
-      </header>
+     
+    </header>
       <div class="container mt-5" >
 
-        <div class="col-sm-3 col-md-12 col-lg-12 my-4 col">
+        <div class="col-sm-12 col-md-12 col-lg-12 my-4 col">
         <h1 class="h1 text-center" >Broj Telefona & E-mail</h1>
         <div class="border-top border-dark w-50 mx-auto my-3"></div>
     </div>
     <div class="row ">
-    <div class="col-sm-3 col-md-12 col-lg-12 my-4 col">
+    <div class="col-sm-12 col-md-12 col-lg-12 my-4 col">
         <div class="container text-center">
-       <div>
-       
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+      
+          <div class="row ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill col" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
           </svg>
           <p class="lead"> 0995027792</p>  
-        <div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-              </svg>
-            <p class="lead">Cabrajakarla88@gmail.com</p>  
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill col" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+          </svg>
+          <p class="lead">Cabrajakarla88@gmail.com</p>  
+          </div>
         </div>
     </div>
     </div>
     <div class="container mt-5 " >
 
-        <div class="col-sm-3 col-md-12 col-lg-12 my-4 col mt-5">
+        <div class="col-sm-12 col-md-12 col-lg-12  mt-5">
         <h1 class="h1 text-center">Lokacija</h1>
         <div class="border-top border-dark w-50 mx-auto my-3"></div>
+        <div class=" col mt-5 ">
+            
+       
+    <p class="lead text-center "> Vlaška  ul.63 10000, Zagreb</p>  
+            
+          
+        	
+<div id="google-map mt-5 justify-content-center">
+    <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Vla%C5%A1ka%2063%20Zagreb&t=&z=13&ie=UTF8&iwloc=&output=embed" > </iframe>
+               
+               
+</div>
+        
+      </div>
     </div>
     
 </div>
-    <div class=" col mt-5 ">
-        
-   
-      <p class="lead text-center "> Vlaška  ul.63 10000, Zagreb</p>  
-        
-      
-          <div class="gmap_canvas">
-           <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vla%C5%A1ka%2063%20Zagreb&t=&z=13&ie=UTF8&iwloc=&output=embed" > </iframe>
-           
-           
-            
-          </div>
-          </div>
         
     
     

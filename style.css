@@ -26,13 +26,7 @@ body {
 .navbar-brand img {
   height: 7rem;
 }
-.navbar {
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  box-shadow: 0 0.5rem 0.5rem rbg(0, 0, 0, 0.9);
-  z-index: 1;
-}
+
 .nav-item {
   padding: 0.5rem;
 }
@@ -59,7 +53,7 @@ body {
   width: 80%;
   padding: 20px;
   text-align: center;
-  -webkit-filter: blur(1.5px);
+  -webkit-filter: blur(1.5px) !important;
 }
 .bottom-left {
   position: absolute;
@@ -81,8 +75,9 @@ ul {
   transform: translateY(-50%);
   font-family: Tahoma, sans-serif;
 }
-#carousel {
-  box-shadow: 0 0.1rem, 5rem rgba(0, 0, 0, 1);
+.carousel {
+  border: 1px solid #8a8787 !important;  
+  border-radius: 30px; 
 }
 .bg-sh {
   background-color: rgba(0, 0, 0, 0.5);
@@ -91,13 +86,14 @@ ul {
 }
 .carousel-inner {
   max-height: 45rem !important;
+  border: 10px solid #8a8787 !important;  
+  border-radius: 30px; 
 }
 .carousel-item.next,
 .carousel.item-prev,
 .carousel-item.active {
   transition: transform 1.2s ease;
 }
-
 cont {
   margin: auto;
 }
@@ -121,3 +117,44 @@ gmap_canvas {
   height: 500px;
   width: 600px;
 }
+
+.price-list-container {
+  background-image: url('friz5.jpeg'); /* Replace 'your-image.jpg' with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px; /* Adjust padding as needed */
+  position: relative; /* Ensure proper positioning for absolute elements */
+}
+
+/* Black background with opacity */
+.black-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity value (last parameter) as needed */
+}
+
+/* Additional styles for the table (optional) */
+.price-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white; /* Set text color to white for better readability */
+}
+
+.price-list-table th, .price-list-table td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Add borders to table cells */
+}
+
+#google-map{
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  }
+  #google-map iframe{ 
+  width: 100% !important; 
+  height: 500px !important; 
+  display: block; 
+  }
