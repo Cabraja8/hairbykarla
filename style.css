@@ -94,14 +94,11 @@ ul {
   color: white;
   border-radius: 1rem;
 }
-
 .carousel-inner {
   position: relative;
-  overflow: hidden; /* important: hide background while slides move */
-  height: 45rem; /* fixed height so images can cover it */
-  max-height: 45rem !important;
-  border: 10px solid #8a8787 !important;
-  border-radius: 30px;
+  overflow: hidden;
+  height: auto; /* umjesto 45rem */
+  max-height: none;
 }
 
 .carousel-item {
