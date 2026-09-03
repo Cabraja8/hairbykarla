@@ -1,266 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Početna</title>
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#231a17" />
+    <meta
+      name="description"
+      content="Hair by Karla — frizerski salon u Vlaškoj 63 u Zagrebu. Otkrijte naše radove, cjenik i rezervirajte svoj termin."
     />
-    <link rel="stylesheet" href="/fa/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/fa/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
-    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
-
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link href="style.css" rel="stylesheet" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hr_HR" />
+    <meta property="og:title" content="Hair by Karla | Frizerski salon Zagreb" />
+    <meta property="og:description" content="Tvoj look, tvoja priča. Otkrij naše radove, cjenik i rezerviraj svoj termin." />
+    <meta property="og:url" content="https://hair-by-karla-zagreb.ruby-finch-9498.chatgpt.site" />
+    <meta property="og:image" content="https://hair-by-karla-zagreb.ruby-finch-9498.chatgpt.site/slike/og.png" />
+    <meta property="og:image:width" content="1731" />
+    <meta property="og:image:height" content="909" />
+    <meta property="og:image:alt" content="Hair by Karla — Tvoj look, tvoja priča." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hair by Karla | Frizerski salon Zagreb" />
+    <meta name="twitter:description" content="Tvoj look, tvoja priča. Otkrij naše radove, cjenik i rezerviraj svoj termin." />
+    <meta name="twitter:image" content="https://hair-by-karla-zagreb.ruby-finch-9498.chatgpt.site/slike/og.png" />
+    <title>Hair by Karla | Frizerski salon Zagreb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <header>
-     
-      <nav id="nav" class="navbar bg-light navbar-brand navbar-expand-lg">
-        <div class="container text-center">
-          <a href="index.html" class="navbar-brand">
-            <img src="slike/logo.png" alt="Logo" />
-          </a>
-  
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto"> <!-- Add ml-auto class here -->
-              <li class="nav-item">
-                <a href="index.html" class="nav-link active">Početna</a>
-              </li>
-  
-              <li class="nav-item">
-                <a href="cjenik.html" class="nav-link">Cjenik</a>
-              </li>
-              <li class="nav-item">
-                <a href="kontakt.html" class="nav-link">Kontakt</a>
-              </li>
-            </ul>
+    <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+    <header class="site-header" id="site-header">
+      <div class="shell header-inner">
+        <a class="wordmark" href="#pocetna" aria-label="Hair by Karla — početna">
+          <span>Hair by Karla</span>
+          <small>frizerski salon</small>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Otvori izbornik</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Glavna navigacija">
+          <a href="#pocetna">Početna</a>
+          <a href="#radovi">Radovi</a>
+          <a href="#cjenik">Cjenik</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <a class="header-cta" href="tel:+385995027792">Rezerviraj termin</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="pocetna" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="hero-copy-inner reveal">
+            <p class="eyebrow">Frizerski salon · Zagreb</p>
+            <h1 id="hero-title">Tvoj look,<br /><em>tvoja priča.</em></h1>
+            <p class="hero-intro">
+              Tražiš frizuru koja će te izdvojiti? U salonu Hair by Karla kreiramo trendi i profesionalne stilove uz vrhunsku njegu. Tvoj look, tvoja priča – mi je oblikujemo.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="tel:+385995027792">
+                Rezerviraj termin
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a class="text-link" href="#radovi">Pogledaj radove <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+
+          <p class="hero-quote">Remember to flip your hair and enjoy life.</p>
+        </div>
+
+        <div class="hero-visual">
+          <img src="slike/friz4.jpeg" alt="Duga valovita kosa s nježnim balayage pramenovima" />
+          <div class="hero-location">
+            <span aria-hidden="true">⌖</span>
+            <p><small>Pronađi nas</small>Vlaška 63, Zagreb</p>
+          </div>
+          <div class="hero-stamp" aria-hidden="true">
+            <span>HBK</span>
+            <small>EST. ZAGREB</small>
           </div>
         </div>
-      </nav>
-   
-  </header>
-  </div>
-    <div class="container">
-     
-        
-       
-        <div class="col-sm-12 col-md-12 col-lg-12 my-4 col">
-          
-          <div
-            id="carouselcontrol"
-            class="carousel slide custom-background"
-            data-ride="carousel"
-            data-interval="4000"
-          >
-          
-          <div class="carousel-inner text-center">
-              <div class="carousel-item active text-center">
-           
-                <img src="slike\friz1.jpeg" alt="" class="img-blur w-100 h-50 custom-background d-block" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        <h1 class="h1 text-light ">Hair by Karla</h1>
-                        
-                        <div class="border-top border-light w-50 mx-auto my-3"></div>
-                        <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item  ">
-           
-                <img src="slike/friz2.jpeg" alt="" class="img-blur w-100 h-50 img-br d-block" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        
-                          <h1 class="h1 text-light ">Hair by Karla</h1>
-                          <div class="border-top border-light w-50 mx-auto my-3"></div>
-                          <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      </section>
 
-              </div>
-              <div class="carousel-item  ">
-           
-                <img src="slike/friz3.jpeg" alt="" class="img-blur w-100 h-50 img-br d-block" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        
-                          <h1 class="h1 text-light ">Hair by Karla</h1>
-                          <div class="border-top border-light w-50 mx-auto my-3"></div>
-                          <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section class="marquee" aria-label="Usluge salona">
+        <div class="marquee-track">
+          <span>Šišanje</span><i>✦</i><span>Bojanje</span><i>✦</i><span>Balayage</span><i>✦</i><span>Njega</span><i>✦</i><span>Styling</span><i>✦</i>
+          <span aria-hidden="true">Šišanje</span><i aria-hidden="true">✦</i><span aria-hidden="true">Bojanje</span><i aria-hidden="true">✦</i><span aria-hidden="true">Balayage</span><i aria-hidden="true">✦</i><span aria-hidden="true">Njega</span><i aria-hidden="true">✦</i><span aria-hidden="true">Styling</span><i aria-hidden="true">✦</i>
+        </div>
+      </section>
 
-              </div>
-              <div class="carousel-item">
-           
-                <img src="slike/friz4.jpeg" alt="" class="img-blur w-100 h-50 img-br d-block" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        
-                          <h1 class="h1 text-light ">Hair by Karla</h1>
-                          <div class="border-top border-light w-50 mx-auto my-3"></div>
-                          <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section class="gallery-section section" id="radovi" aria-labelledby="gallery-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Naši radovi</p>
+              <h2 id="gallery-title">Kosa koja se<br /><em>primjećuje.</em></h2>
+            </div>
+            <p>Od suptilnih prijelaza do odvažnih promjena — svaki je look krojen baš za tebe.</p>
+          </div>
 
-              </div>
-              <div class="carousel-item">
-           
-                <img src="slike/friz5.jpeg" alt="" class="img-blur w-100 h-50 img-br d-block" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        
-                          <h1 class="h1 text-light ">Hair by Karla</h1>
-                          <div class="border-top border-light w-50 mx-auto my-3"></div>
-                          <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-item-tall reveal">
+              <img src="slike/friz1.jpeg" alt="Valovita kosa u bakrenim i ružičastim tonovima" loading="lazy" />
+              <figcaption>Color story</figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img src="slike/friz2.jpeg" alt="Ravna njegovana plava kosa" loading="lazy" />
+              <figcaption>Clean blonde</figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img src="slike/friz3.jpeg" alt="Duga valovita smeđa kosa s toplim pramenovima" loading="lazy" />
+              <figcaption>Soft dimension</figcaption>
+            </figure>
+            <figure class="gallery-item gallery-item-wide reveal">
+              <img src="slike/friz5.jpeg" alt="Smeđa kosa oblikovana u mekane valove" loading="lazy" />
+              <figcaption>Glossy waves</figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img src="slike/friz6.jpeg" alt="Duga plava kosa oblikovana u velike valove" loading="lazy" />
+              <figcaption>Signature blonde</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
 
-              </div>
-              <div class="carousel-item  ">
-           
-                <img src="slike/friz6.jpeg" alt="" class="img-blur w-100 h-50 img-br" />
-              
-                <div class="carousel-caption">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-sm-8 bg-sh py-3">
-                        
-                          <h1 class="h1 text-light ">Hair by Karla</h1>
-                          <div class="border-top border-light w-50 mx-auto my-3"></div>
-                          <h3 class="h3 text-light">Remember to flip your hair and enjoy life</h3>
-                       
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section class="price-section section" id="cjenik" aria-labelledby="price-title">
+        <div class="shell price-layout">
+          <div class="price-intro reveal">
+            <p class="eyebrow">Cjenik / Price list</p>
+            <h2 id="price-title">Odaberi svoj<br /><em>novi look.</em></h2>
+            <p>Pronađi uslugu koja ti treba. Za preporuku ili dogovor termina, slobodno nam se javi.</p>
+            <a class="button button-light" href="tel:+385995027792">Nazovi 099 502 7792</a>
+          </div>
 
+          <div class="price-content reveal">
+            <div class="price-filters" role="group" aria-label="Filtriraj cjenik">
+              <button type="button" class="is-active" data-filter="all" aria-pressed="true">Sve</button>
+              <button type="button" data-filter="styling" aria-pressed="false">Frizure</button>
+              <button type="button" data-filter="color" aria-pressed="false">Bojanje</button>
+              <button type="button" data-filter="cut" aria-pressed="false">Šišanje</button>
+              <button type="button" data-filter="highlights" aria-pressed="false">Pramenovi</button>
+              <button type="button" data-filter="care" aria-pressed="false">Njega</button>
+            </div>
+
+            <div class="price-groups" aria-live="polite">
+              <section class="price-group" data-category="styling">
+                <h3>Frizure &amp; styling</h3>
+                <ul>
+                  <li><span>Pranje kose i frizura 1</span><strong>15 €</strong></li>
+                  <li><span>Pranje kose i frizura 2</span><strong>17 €</strong></li>
+                  <li><span>Pranje kose i frizura 3</span><strong>20 €</strong></li>
+                  <li><span>Pranje kose i frizura 4</span><strong>25 €</strong></li>
+                  <li><span>Valovi</span><strong>2 €</strong></li>
+                  <li><span>Frizura s figarom</span><strong>18 €</strong></li>
+                  <li><span>Pranje kose, šišanje i frizura 1</span><strong>35 €</strong></li>
+                  <li><span>Pranje kose, šišanje i frizura 2</span><strong>38 €</strong></li>
+                  <li><span>Pranje kose, šišanje i frizura 3</span><strong>41 €</strong></li>
+                  <li><span>Pranje kose, šišanje i frizura 4</span><strong>45 €</strong></li>
+                  <li><span>Dječije žensko šišanje</span><strong>20 €</strong></li>
+                  <li><span>Dječije žensko šišanje s pranjem</span><strong>25 €</strong></li>
+                </ul>
+              </section>
+
+              <section class="price-group" data-category="color">
+                <h3>Bojanje</h3>
+                <ul>
+                  <li><span>Farbanje izrasta i frizura 1</span><strong>45 €</strong></li>
+                  <li><span>Farbanje izrasta i frizura 2</span><strong>47 €</strong></li>
+                  <li><span>Farbanje izrasta i frizura 3</span><strong>50 €</strong></li>
+                  <li><span>Farbanje cijele dužine 1</span><strong>20 €</strong></li>
+                  <li><span>Farbanje cijele dužine 2</span><strong>30 €</strong></li>
+                  <li><span>Preljev</span><strong>15 €</strong></li>
+                  <li><span>Farbanje, šišanje i frizura 1</span><strong>65 €</strong></li>
+                  <li><span>Farbanje, šišanje i frizura 2</span><strong>70 €</strong></li>
+                  <li><span>Farbanje, šišanje i frizura 3</span><strong>75 €</strong></li>
+                  <li><span>Farbanje s korisnikovom bojom</span><strong>12 €</strong></li>
+                  <li><span>Farbanje</span><strong>20 €</strong></li>
+                  <li><span>Blajhanje</span><strong>50 €</strong></li>
+                </ul>
+              </section>
+
+              <section class="price-group" data-category="cut">
+                <h3>Šišanje</h3>
+                <ul>
+                  <li><span>Šišanje s mašinicom</span><strong>10 €</strong></li>
+                  <li><span>Šišanje s mašinicom i pranje kose</span><strong>13 €</strong></li>
+                  <li><span>Muško šišanje</span><strong>12 €</strong></li>
+                  <li><span>Muško šišanje s pranjem</span><strong>15 €</strong></li>
+                  <li><span>Dječije muško šišanje</span><strong>11 €</strong></li>
+                  <li><span>Šišanje šiški</span><strong>4 €</strong></li>
+                </ul>
+              </section>
+
+              <section class="price-group" data-category="highlights">
+                <h3>Pramenovi</h3>
+                <ul>
+                  <li><span>Klasični pramenovi i frizura 1</span><strong>70 €</strong></li>
+                  <li><span>Klasični pramenovi i frizura 2</span><strong>75 €</strong></li>
+                  <li><span>Klasični pramenovi i frizura 3</span><strong>80 €</strong></li>
+                  <li><span>Klasični pramenovi, šišanje i frizura 1</span><strong>85 €</strong></li>
+                  <li><span>Klasični pramenovi, šišanje i frizura 2</span><strong>90 €</strong></li>
+                  <li><span>Klasični pramenovi, šišanje i frizura 3</span><strong>95 €</strong></li>
+                  <li><span>Balayage pramenovi, preljev i frizura 2</span><strong>100 €</strong></li>
+                  <li><span>Balayage pramenovi, preljev i frizura 3</span><strong>110 €</strong></li>
+                  <li><span>Balayage pramenovi, preljev, šišanje i frizura 2</span><strong>120 €</strong></li>
+                  <li><span>Balayage pramenovi, preljev, šišanje i frizura 3</span><strong>130 €</strong></li>
+                  <li><span>Površinski pramenovi</span><strong>30 €</strong></li>
+                </ul>
+              </section>
+
+              <section class="price-group" data-category="care">
+                <h3>Njega &amp; detalji</h3>
+                <ul>
+                  <li><span>Njega kose</span><strong>4 €</strong></li>
+                  <li><span>Čupanje obrva</span><strong>4 €</strong></li>
+                  <li><span>Farbanje obrva</span><strong>5 €</strong></li>
+                  <li><span>Svečana frizura</span><strong>35 €</strong></li>
+                  <li><span>Pletenica</span><strong>3 €</strong></li>
+                  <li><span>Botox</span><strong>25 €</strong></li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="kontakt" aria-labelledby="contact-title">
+        <div class="shell">
+          <div class="contact-heading reveal">
+            <p class="eyebrow">Kontakt</p>
+            <h2 id="contact-title">Spremna za<br /><em>promjenu?</em></h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card reveal">
+              <p class="contact-kicker">Rezerviraj svoj termin</p>
+              <a class="contact-phone" href="tel:+385995027792">099 502 7792</a>
+              <a class="contact-email" href="mailto:Cabrajakarla88@gmail.com">Cabrajakarla88@gmail.com</a>
+
+              <div class="contact-details">
+                <div>
+                  <small>Adresa</small>
+                  <p>Vlaška ul. 63<br />10000 Zagreb</p>
+                </div>
+                <div>
+                  <small>Prati nas</small>
+                  <p class="social-links">
+                    <a href="https://www.instagram.com/_hairbykarla_/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                    <a href="https://www.facebook.com/profile.php?id=100075678672406" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+                  </p>
+                </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselcontrol" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselcontrol" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-       
-      </div>
-      
-      <div class="container-fluid">
-        <div class="col-lg-12 my-4">
-          <div class="container">
-            <div class="col-12 text-center mt-5">
-              <!-- <h1 class="text-dark pt-4">Šta vas zanima</h1> -->
-             
-          </div>
-          
-           
-          <div class="col col-md-12 col-sm-12 my-4 text-center "data-aos="zoom-in"> 
-           
-            <p class="lead">Tražiš frizuru koja će te izdvojiti? U salonu Hair by Karla kreiramo trendi i profesionalne stilove uz vrhunsku njegu. Tvoj look, tvoja priča – mi je oblikujemo.</p>
-          </div>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <div class="container-fluid bg-white" data-aos="fade-up">
-          <div class="row text-dark text-center py-4 justify-content-center navbar-brand">
-            <div class="col-sm-10 col-md-8-col-lg-6">
-              <img src="slike/logo.png" alt="" />
-              <ul class="social pt-3">
-                <li>
-                  <a href="https://www.facebook.com/profile.php?id=100075678672406" target="_blank"><i class="fab fa-facebook fa-2xl"></i></a>
-                
-                  <a href="https://www.instagram.com/_hairbykarla_/" target="_blank"><i class=" fab fa-instagram fa-2xl" style="color:red"></i></a>
-                </li>
-               
-              </ul>
+
+            <div class="map-card reveal">
+              <iframe
+                title="Lokacija salona Hair by Karla na Vlaškoj 63 u Zagrebu"
+                src="https://maps.google.com/maps?q=Vla%C5%A1ka%2063%20Zagreb&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Vla%C5%A1ka%2063%2C%20Zagreb" target="_blank" rel="noopener noreferrer">
+                Otvori u Google Maps <span aria-hidden="true">↗</span>
+              </a>
             </div>
-              
-           
           </div>
         </div>
-      </footer>
-    </div>
-    </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-top">
+        <div class="footer-brand">
+          <img src="slike/logo.png" alt="Hair by Karla frizerski salon" />
+        </div>
+        <p>Remember to flip your hair<br />and enjoy life.</p>
+        <a class="back-to-top" href="#pocetna" aria-label="Natrag na vrh">↑</a>
+      </div>
+      <div class="shell footer-bottom">
+        <small>© <span id="year">2026</span> Hair by Karla</small>
+        <small>Vlaška 63 · Zagreb</small>
+      </div>
+    </footer>
   </body>
 </html>
