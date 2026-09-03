@@ -23,6 +23,9 @@ const checks = [
   ['single-page sections', ['pocetna', 'radovi', 'cjenik', 'kontakt'].every((id) => html.includes(`id="${id}"`))],
   ['responsive viewport', html.includes('name="viewport"')],
   ['price list', (html.match(/<li><span>/g) || []).length === 47],
+  ['working hours', html.includes('08:00 – 20:00 h') && html.includes('08:00 – 13:00 h')],
+  ['social links', html.includes('instagram.com/_hairbykarla_') && html.includes('facebook.com/profile.php?id=100075678672406')],
+  ['social app icons', (html.match(/class="social-icon/g) || []).length === 2],
   ['responsive styles', css.includes('@media (max-width: 720px)')],
   ['reduced motion support', css.includes('prefers-reduced-motion')],
 ];

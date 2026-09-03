@@ -724,10 +724,9 @@ h2 {
 .contact-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 0;
   margin-top: auto;
-  padding-top: 70px;
-  border-top: 1px solid rgba(245, 240, 232, 0.25);
+  padding-top: 46px;
 }
 
 .contact-details small {
@@ -743,14 +742,95 @@ h2 {
   margin: 0;
 }
 
-.social-links {
+.contact-detail {
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 26px 22px 0;
+  text-align: center;
+}
+
+.contact-detail + .contact-detail {
+  border-left: 1px solid rgba(245, 240, 232, 0.25);
+}
+
+.hours-block {
+  grid-column: 1 / -1;
+  padding-block: 22px;
+  border-top: 1px solid rgba(245, 240, 232, 0.25);
+  border-bottom: 1px solid rgba(245, 240, 232, 0.25);
+}
+
+.hours-list {
+  margin: 0;
+}
+
+.hours-list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-block: 3px;
+}
+
+.hours-list dt,
+.hours-list dd {
+  margin: 0;
+}
+
+.hours-list dt {
+  color: rgba(245, 240, 232, 0.7);
+}
+
+.hours-list dd {
+  font-weight: 600;
+  text-align: right;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .social-links a {
-  text-underline-offset: 4px;
+  min-width: 0;
+  flex: 1 1 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid rgba(245, 240, 232, 0.45);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  color: var(--clay);
+  background: var(--paper);
+}
+
+.social-icon {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.social-icon-facebook {
+  fill: currentColor;
+  stroke: none;
 }
 
 .map-card {
@@ -1197,6 +1277,17 @@ h2 {
 
   .contact-details {
     grid-template-columns: 1fr;
+  }
+
+  .contact-detail {
+    padding-inline: 0;
+  }
+
+  .contact-detail + .contact-detail {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(245, 240, 232, 0.25);
+    border-left: 0;
   }
 
   .footer-bottom {
