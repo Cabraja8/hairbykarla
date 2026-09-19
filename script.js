@@ -5,6 +5,24 @@ const navigationLinks = [...document.querySelectorAll('.primary-nav a')];
 const filterButtons = [...document.querySelectorAll('.price-filters button')];
 const priceGroups = [...document.querySelectorAll('.price-group')];
 
+document.querySelectorAll('.price-group li strong').forEach((price) => {
+  const currentPrice = price.textContent.trim();
+  const amount = document.createElement('span');
+  const anchor = document.createElement('small');
+  const date = document.createElement('time');
+  const anchorAmount = document.createElement('span');
+
+  amount.className = 'current-price';
+  amount.textContent = currentPrice;
+  anchor.className = 'anchor-price';
+  date.dateTime = '2026-09-10';
+  date.textContent = '10.09.2026.';
+  anchorAmount.textContent = currentPrice;
+
+  anchor.append(date, document.createTextNode(' · '), anchorAmount);
+  price.replaceChildren(amount, anchor);
+});
+
 const updateHeader = () => {
   header.classList.toggle('is-scrolled', window.scrollY > 24);
 };

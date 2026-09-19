@@ -22,10 +22,14 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-height);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   color: var(--ink);
   background: var(--paper);
   font-family: var(--sans);
@@ -588,6 +592,15 @@ h2 {
   grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
   gap: clamp(60px, 8vw, 130px);
   align-items: start;
+  min-width: 0;
+}
+
+.price-content,
+.price-groups,
+.price-group,
+.price-group ul {
+  min-width: 0;
+  width: 100%;
 }
 
 .price-intro {
@@ -667,13 +680,33 @@ h2 {
 }
 
 .price-group li span {
+  min-width: 0;
+  flex: 1 1 auto;
   color: rgba(245, 240, 232, 0.78);
+  overflow-wrap: anywhere;
 }
 
 .price-group li strong {
   flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   color: var(--paper);
   font-weight: 500;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.current-price {
+  font-size: 1rem;
+}
+
+.anchor-price {
+  margin-top: 5px;
+  color: rgba(245, 240, 232, 0.5);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.015em;
 }
 
 .contact-section {
@@ -944,7 +977,7 @@ h2 {
 
 @media (max-width: 1040px) {
   :root {
-    --shell: min(100% - 48px, 920px);
+    --shell: min(calc(100% - 48px), 920px);
   }
 
   .header-inner {
@@ -989,17 +1022,36 @@ h2 {
   }
 
   .site-header .primary-nav {
-    position: fixed;
+    position: absolute;
+    z-index: 1;
     inset: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 28px;
     color: var(--paper);
-    background: rgba(35, 26, 23, 0.98);
+    background: transparent;
     opacity: 0;
     visibility: hidden;
     transition: opacity 180ms ease, visibility 180ms ease;
+  }
+
+  body.menu-open .site-header {
+    height: 100dvh;
+    color: var(--paper);
+    background: rgba(23, 17, 15, 0.96);
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  body.menu-open .site-header .header-inner {
+    height: var(--header-height);
+  }
+
+  body.menu-open .site-header .wordmark,
+  body.menu-open .site-header .menu-toggle {
+    position: relative;
+    z-index: 2;
   }
 
   .site-header .primary-nav.is-open {
@@ -1187,23 +1239,29 @@ h2 {
   }
 
   .price-filters {
-    margin-right: -18px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 2px 18px 10px 0;
-    scrollbar-width: none;
-  }
-
-  .price-filters::-webkit-scrollbar {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    overflow: visible;
+    padding: 0;
   }
 
   .price-filters button {
-    flex: 0 0 auto;
+    width: 100%;
+    padding-inline: 8px;
   }
 
   .price-group li {
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
     font-size: 14px;
+  }
+
+  .price-group li strong {
+    margin-left: auto;
   }
 
   .contact-heading {
