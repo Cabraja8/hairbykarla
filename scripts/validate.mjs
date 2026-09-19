@@ -23,7 +23,14 @@ const checks = [
   ['Croatian language', html.includes('lang="hr"')],
   ['single-page sections', ['pocetna', 'radovi', 'cjenik', 'kontakt'].every((id) => html.includes(`id="${id}"`))],
   ['responsive viewport', html.includes('name="viewport"')],
-  ['price list', (html.match(/<li><span>/g) || []).length === 47],
+  [
+    'price list',
+    (html.match(/<li><span>/g) || []).length === 47 &&
+      html.includes('<span>Pranje kose i frizura 1</span><strong>20 €</strong>') &&
+      html.includes('<span>Klasični pramenovi s bojom i frizura</span><strong>70 €</strong>') &&
+      html.includes('<span>Balayage pramenovi, preljev, šišanje i frizura 3</span><strong>160 €</strong>') &&
+      !html.includes('Čupanje obrva'),
+  ],
   ['working hours', html.includes('08:00 – 20:00 h') && html.includes('08:00 – 13:00 h')],
   ['social links', html.includes('instagram.com/_hairbykarla_') && html.includes('facebook.com/profile.php?id=100075678672406')],
   ['social app icons', (html.match(/class="social-icon/g) || []).length === 2],
