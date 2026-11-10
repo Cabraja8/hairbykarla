@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik salon="Hair by Karla" valuta="EUR" verzija="2026-11-10">
+  <usluge>
+    <usluga id="usluga-001">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>20.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">20.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-002">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>23.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">23.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-003">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>25.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">25.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-004">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose i frizura 4</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>28.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">28.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-005">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Valovi</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>2.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">2.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-006">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Frizura s figarom</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>20.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">20.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-007">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose, šišanje i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>38.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">38.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-008">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose, šišanje i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>41.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">41.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-009">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose, šišanje i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>44.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">44.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-010">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Pranje kose, šišanje i frizura 4</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>48.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">48.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-011">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Dječje žensko šišanje</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>22.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">22.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-012">
+      <kategorija>Frizure &amp; styling</kategorija>
+      <naziv>Dječje žensko šišanje s pranjem</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>28.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">28.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-013">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje izrasta i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>50.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">50.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-014">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje izrasta i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>53.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">53.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-015">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje izrasta i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>55.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">55.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-016">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje cijele dužine 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>20.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">20.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-017">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje cijele dužine 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>30.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">30.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-018">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Preljev</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>18.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">18.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-019">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje, šišanje i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>70.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">70.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-020">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje, šišanje i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>75.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">75.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-021">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje, šišanje i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>80.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">80.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-022">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje s korisnikovom bojom</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>13.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">13.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-023">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Farbanje</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>20.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">20.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-024">
+      <kategorija>Bojanje</kategorija>
+      <naziv>Blajhanje</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>50.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">50.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-025">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Šišanje s mašinicom</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>12.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">12.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-026">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Šišanje s mašinicom i pranje kose</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>15.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">15.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-027">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Muško šišanje</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>13.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">13.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-028">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Muško šišanje s pranjem</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>15.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">15.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-029">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Dječje muško šišanje</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>12.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">12.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-030">
+      <kategorija>Šišanje</kategorija>
+      <naziv>Šišanje šiški</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>5.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">5.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-031">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>80.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">80.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-032">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>85.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">85.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-033">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>90.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">90.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-034">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi s bojom i frizura</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>70.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">70.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-035">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi, šišanje i frizura 1</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>90.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">90.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-036">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi, šišanje i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>95.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">95.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-037">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Klasični pramenovi, šišanje i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>100.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">100.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-038">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Balayage pramenovi, preljev i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>120.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">120.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-039">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Balayage pramenovi, preljev i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>130.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">130.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-040">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Balayage pramenovi, preljev, šišanje i frizura 2</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>140.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">140.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-041">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Balayage pramenovi, preljev, šišanje i frizura 3</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>160.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">160.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-042">
+      <kategorija>Pramenovi</kategorija>
+      <naziv>Površinski pramenovi</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>40.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">40.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-043">
+      <kategorija>Njega &amp; detalji</kategorija>
+      <naziv>Njega kose</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>5.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">5.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-044">
+      <kategorija>Njega &amp; detalji</kategorija>
+      <naziv>Farbanje obrva</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>5.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">5.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-045">
+      <kategorija>Njega &amp; detalji</kategorija>
+      <naziv>Svečana frizura</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>35.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">35.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-046">
+      <kategorija>Njega &amp; detalji</kategorija>
+      <naziv>Pletenica</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>4.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">4.00</sidrenaCijena>
+    </usluga>
+    <usluga id="usluga-047">
+      <kategorija>Njega &amp; detalji</kategorija>
+      <naziv>Botox</naziv>
+      <valuta>EUR</valuta>
+      <trenutnaCijena>25.00</trenutnaCijena>
+      <posebanOblikProdaje primjenjujeSe="false">Nema</posebanOblikProdaje>
+      <sidrenaCijena datum="2026-09-10">25.00</sidrenaCijena>
+    </usluga>
+  </usluge>
+</cjenik>

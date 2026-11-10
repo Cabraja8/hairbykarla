@@ -5,11 +5,13 @@ import { extname, resolve, sep } from 'node:path';
 const port = Number(process.env.PORT || 4173);
 const root = resolve('.');
 const types = {
+  '.csv': 'text/csv; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.html': 'text/html; charset=utf-8',
   '.jpeg': 'image/jpeg',
   '.js': 'text/javascript; charset=utf-8',
   '.png': 'image/png',
+  '.xml': 'application/xml; charset=utf-8',
 };
 
 createServer(async (request, response) => {

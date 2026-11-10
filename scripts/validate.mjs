@@ -1,5 +1,6 @@
 import { readFile, access, cp, copyFile, mkdir, rm } from 'node:fs/promises';
 import { resolve, sep } from 'node:path';
+import { writeDigitalPriceFiles } from './digital-price-list.mjs';
 
 const html = await readFile('index.html', 'utf8');
 const css = await readFile('style.css', 'utf8');
@@ -37,6 +38,12 @@ const checks = [
   ['mobile overflow guard', css.includes('overflow-x: hidden') && css.includes('max-width: 100%')],
   ['mobile price columns', css.includes('overflow-wrap: anywhere') && css.includes('white-space: nowrap')],
   ['anchor prices', script.includes("date.textContent = '10.09.2026.'") && script.includes("anchor.className = 'anchor-price'")],
+  [
+    'digital price list links',
+    html.includes('href="digitalni-cjenik/cjenik.csv"') &&
+      html.includes('href="digitalni-cjenik/cjenik.xml"') &&
+      html.includes('digitalni-cjenik/arhiva/cjenik-2026-09-10.csv'),
+  ],
   ['full-screen mobile menu', css.includes('body.menu-open .site-header') && css.includes('height: 100dvh')],
   ['responsive styles', css.includes('@media (max-width: 720px)')],
   ['reduced motion support', css.includes('prefers-reduced-motion')],
@@ -54,6 +61,8 @@ if (!output.startsWith(`${root}${sep}`)) {
   throw new Error('Refusing to write outside the project.');
 }
 
+await writeDigitalPriceFiles(html, resolve('digitalni-cjenik'));
+
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await Promise.all([
@@ -63,6 +72,27 @@ await Promise.all([
   copyFile('style.css', 'dist/style.css'),
   copyFile('script.js', 'dist/script.js'),
   cp('slike', 'dist/slike', { recursive: true }),
+  cp('digitalni-cjenik', 'dist/digitalni-cjenik', { recursive: true }),
 ]);
+
+const [digitalCsv, digitalXml, archiveCsv] = await Promise.all([
+  readFile('dist/digitalni-cjenik/cjenik.csv', 'utf8'),
+  readFile('dist/digitalni-cjenik/cjenik.xml', 'utf8'),
+  readFile('dist/digitalni-cjenik/arhiva/cjenik-2026-09-10.csv', 'utf8'),
+]);
+
+const digitalChecks = [
+  ['digital CSV rows', digitalCsv.trim().split(/\r?\n/).length === 48],
+  ['digital CSV fields', digitalCsv.includes('"trenutna_cijena_eur"') && digitalCsv.includes('"sidrena_cijena_eur"')],
+  ['digital XML services', (digitalXml.match(/<usluga id=/g) || []).length === 47],
+  ['digital XML fields', digitalXml.includes('<posebanOblikProdaje') && digitalXml.includes('<sidrenaCijena datum="2026-09-10">')],
+  ['digital archive', archiveCsv.trim().split(/\r?\n/).length === 48 && archiveCsv.includes('"Čupanje obrva"')],
+];
+
+const digitalFailures = digitalChecks.filter(([, passed]) => !passed);
+if (digitalFailures.length) {
+  digitalFailures.forEach(([name]) => console.error(`Failed: ${name}`));
+  process.exit(1);
+}
 
 console.log('Static site validation and build passed.');
